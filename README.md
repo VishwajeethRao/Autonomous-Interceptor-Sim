@@ -10,6 +10,9 @@ the ROS2 node for velocity control, ros_gz_bridge for the image topic to handle 
 
 For the guidance algorithm development (Proportion Navigation (PN)), work at this stage has been done using python. The guidance law is achieving an intercept under specific ideal assumptions and conditions. Kindly check [Standalone UAV Navigation and Guidance Simulator](https://github.com/BoldRhythm/Simplified-UAV-Navigation-and-Guidance-Sim)
 
+![Project Structure and Technical Scope](assets/structure.png)
+
+![Proposed System Architecture](assets/flow.png)
 
 ## Installation
 

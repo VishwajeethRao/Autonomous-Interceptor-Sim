@@ -17,7 +17,13 @@ The work since has moved completely over to ROS2, and Gazebo, with PX4 handling 
 
 So far, the ROS2 node for velocity control, ros_gz_bridge for the image topic to handle camera feed - viewed using a ROS2 node (openCV) and multi-drone capability without RAM leaks in ruby are up. Also, a singular bash file can also be used to launch PX4 and gazebo for simulation, along with htop for resource monitoring. Needs PX4 to be installed in ~/PX4-Autopilot (i.e. the default directory structure), and bash as the shell.
 
+<<<<<<< HEAD
 For the Image-Based Visual Servoing, the angular velocity commands work to handle the yaw through the body-rate controller topic perfectly, easy to tune through a singular parameter kb in the Lyapunov candidate function. For the target being at a different altitude, thrust control is being implemented (so far, the state-transistion matrix F has been implemented. Check node Attitude_working in the ros2 workspace). The guidance law is achieving an intercept under specific ideal assumptions and conditions. 
+=======
+![Project Structure and Technical Scope](assets/structure.png)
+
+![Proposed System Architecture](assets/flow.png)
+>>>>>>> personal/main
 
 ## Installation
 

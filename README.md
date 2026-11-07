@@ -47,7 +47,7 @@ cd Autonomous-Interceptor-Sim
 
 Or using https:
 ```bash
-git clone https://github.com/BoldRhythm/Autonomous-Interceptor-Sim.git
+https://github.com/VishwajeethRao/Autonomous-Interceptor-Sim.git
 cd Autonomous-Interceptor-Sim
 ```
 

@@ -28,3 +28,9 @@ results/
 /ros2_px4_ws/build/
 /ros2_px4_ws/install/
 /ros2_px4_ws/log/
+
+# Ignore generated ROS/colcon files at any depth
+**/build/
+**/install/
+**/log/
+**/.venv/

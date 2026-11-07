@@ -147,19 +147,19 @@ start_in_pane \
 start_in_pane \
     "$(get_pane 1 0)" \
     "PX4 SITL / Gazebo" \
-    "cd \"$PX4_ROOT\" && PX4_SYS_AUTOSTART=4001 PX4_SIM_MODEL=gz_interceptor_x500 ./build/px4_sitl_default/bin/px4 -i 1"
+    "cd \"$PX4_ROOT\" && HEADLESS=1 PX4_SYS_AUTOSTART=4012 PX4_SIM_MODEL=gz_interceptor_x500 ./build/px4_sitl_default/bin/px4 -i 1"
 
 # Row 2: Second standard PX4 SITL vehicle
 start_in_pane \
     "$(get_pane 1 1)" \
     "PX4 SITL - Vehicle 2" \
-    "cd \"$PX4_ROOT\" && PX4_GZ_STANDALONE=1 PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE='7.5,0' PX4_SIM_MODEL=gz_interceptor_x500 ./build/px4_sitl_default/bin/px4 -i 2"
+    "cd \"$PX4_ROOT\" && HEADLESS=1 PX4_GZ_STANDALONE=1 PX4_SYS_AUTOSTART=4012 PX4_GZ_MODEL_POSE='7.5,0' PX4_SIM_MODEL=gz_interceptor_x500 ./build/px4_sitl_default/bin/px4 -i 2"
 
 # Row 3: Gazebo topic monitor
 start_in_pane \
     "$(get_pane 1 2)" \
     "ROS 2 interception Intercept" \
-    "source $PROJECT_ROOT/ros2_px4_ws/install/setup.bash"
+    "source $PROJECT_ROOT/ros2_px4_ws/install/setup.bash && source $HOME/Projects/Autonomous-Interceptor-Sim/ros2_px4_ws/setup_spatialmath.sh"
 
 # Row 4: QGroundControl
 start_in_pane \

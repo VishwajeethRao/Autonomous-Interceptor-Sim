@@ -25,11 +25,11 @@ from rclpy.qos import (
 
 IMAGE_TOPIC = "/world/default/model/interceptor_x500_1/link/camera_link/sensor/camera/image"
 
-CONFIG_PATH = "/home/gp/Projects/Autonomous-Interceptor-Sim/ros2_px4_ws/src/interceptor_vision/interceptor_vision/YOLO/cfg/yolov4-tiny-drone.cfg"
+CONFIG_PATH = "/home/vishwajeeth/Projects/Autonomous-Interceptor-Sim/ros2_px4_ws/src/interceptor_vision/interceptor_vision/YOLO/cfg/yolov4-tiny-drone.cfg"
 
-WEIGHTS_PATH = "/home/gp/Documents/Datasets/UAV-Eagle/UAV-Eagle/backup/yolov4-tiny-drone_best.weights"
+WEIGHTS_PATH = "/home/vishwajeeth/Projects/Autonomous-Interceptor-Sim/ros2_px4_ws/src/interceptor_vision/interceptor_vision/YOLO/weights/yolov4-tiny-drone_best.weights"
 
-NAMES_PATH = "/home/gp/Documents/Datasets/UAV-Eagle/UAV-Eagle/obj.names"
+NAMES_PATH = "/home/vishwajeeth/Projects/Autonomous-Interceptor-Sim/ros2_px4_ws/src/interceptor_vision/interceptor_vision/YOLO/data/obj.names"
 
 
 # YOLO parameters

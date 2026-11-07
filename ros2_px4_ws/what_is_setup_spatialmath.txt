@@ -1,0 +1,3 @@
+setup_spatialmath.sh is just a helper shell file to activate your created .venv which contains spatial math. It is a dependency for the main "interception Intercept".
+
+make sure to follow the steps in the github readme to appropriately have your .venv setup.

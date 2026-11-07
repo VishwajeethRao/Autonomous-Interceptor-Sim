@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/vishwajeeth/Projects/Autonomous-Interceptor-Sim/ros2_px4_ws/.venv/bin/python
 
 import math
 import time
@@ -128,7 +128,7 @@ class Attitude(Node):
         self.mav_sys_id = self.get_parameter("mav_sys_id").value
         self.search_yaw_rate = float(self.get_parameter("search_yaw_rate").value)
 
-        self.prefix = f"/px4_{self.instance}"
+        self.prefix = f"/uav_{self.instance}"
 
         # PUBLISHERS
 

@@ -41,7 +41,7 @@ The project is currently being developed on :
 Clone the repository using SSH:
 
 ```bash
-git clone git@github.com:BoldRhythm/Autonomous-Interceptor-Sim.git
+git@github.com:VishwajeethRao/Autonomous-Interceptor-Sim.git
 cd Autonomous-Interceptor-Sim
 ```
 

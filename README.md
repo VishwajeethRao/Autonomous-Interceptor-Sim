@@ -84,7 +84,7 @@ source install/setup.bash
 For convenience, the workspace can be sourced automatically in future terminal sessions:
 
 ```bash
-echo "source ~/Projects/interceptor-sim/ros2_px4_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/Projects/Autonomous-interceptor-sim/ros2_px4_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 

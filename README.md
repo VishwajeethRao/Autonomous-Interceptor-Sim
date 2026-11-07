@@ -3,7 +3,7 @@
 A simulation and robotics project focused on the development of an autonomous UAV interceptor capable of detecting, tracking, guiding toward, and intercepting a moving aerial target.
 The project combines mathematical modeling, guidance algorithms, autonomous control, ROS 2, PX4, and Gazebo to develop and validate an end-to-end interceptor simulation framework.
 
-For the current progress reagrding guidance algorithm, check https://github.com/BoldRhythm/Simplified-UAV-Navigation-and-Guidance-Sim
+For the current progress reagrding guidance algorithm, check https://github.com/VishwajeethRao/Autonomous-Interceptor-Sim
 
 ![Project Structure and Scope](assets/structure.png)
 

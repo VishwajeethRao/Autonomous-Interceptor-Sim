@@ -12,7 +12,7 @@ For the current progress reagrding guidance algorithm, check https://github.com/
 
 # Current Progress: 
 
-Initial testing work with proportional navigation was done in Python. Kindly check [Standalone UAV Navigation and Guidance Simulator](https://github.com/BoldRhythm/Simplified-UAV-Navigation-and-Guidance-Sim)
+Initial testing work with proportional navigation was done in Python. Kindly check [Standalone UAV Navigation and Guidance Simulator](https://github.com/VishwajeethRao/Autonomous-Interceptor-Sim)
 The work since has moved completely over to ROS2, and Gazebo, with PX4 handling the drone state.
 
 So far, the ROS2 node for velocity control, ros_gz_bridge for the image topic to handle camera feed - viewed using a ROS2 node (openCV) and multi-drone capability without RAM leaks in ruby are up. Also, a singular bash file can also be used to launch PX4 and gazebo for simulation, along with htop for resource monitoring. Needs PX4 to be installed in ~/PX4-Autopilot (i.e. the default directory structure), and bash as the shell.
